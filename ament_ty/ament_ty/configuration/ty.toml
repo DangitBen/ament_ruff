@@ -1,0 +1,11 @@
+[src]
+# try to exclude default ros workspace paths
+exclude = [
+    "**/build/**",
+    "**/install/**"
+]
+
+[rules]
+all = "error"
+unresolved-import = "ignore"
+invalid-argument-type = "warn"
